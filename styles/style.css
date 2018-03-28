@@ -284,21 +284,6 @@ input[type=submit]:active
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
-/*
-.hobby-box:first-child
-{
-
-}
-
-.hobby-box:last-child
-{
-
-}
-
-.hobby-box
-{
-  border: 2px solid #000000;
-}*/
 
 .hobby-box h3
 {
@@ -341,11 +326,6 @@ input[type=submit]:active
     vertical-align: middle;
 }
 
-.section-musicandsports
-{
-    background-color: #f4f4f4;
-}
-
 .musicandsports-box:first-child
 {
     text-align: middle;
@@ -364,17 +344,17 @@ input[type=submit]:active
   border: none;
 }
 
-.step
+.cell
 {
     margin-bottom: 50px;
 }
 
-.step:last-of-type
+.cell:last-of-type
 {
     margin-bottom: 80px;
 }
 
-.step div
+.cell div
 {
     color: #e67e22;
     /*border: 2px solid #e67e22;*/
@@ -389,7 +369,7 @@ input[type=submit]:active
     margin-right: 25px;
 }
 
-.step p
+.cell p
 {
   display: flex;
   align-items: center;
@@ -398,13 +378,9 @@ input[type=submit]:active
 
 .section-musicandsports
 {
+    background-color: #f4f4f4;
     padding-top: 30px;
     height: 100vh;
-}
-
-.section-musicandsports .long-copy
-{
-    margin-bottom: 30px;
 }
 
 /* ------------------------------------------------ */
