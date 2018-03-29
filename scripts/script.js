@@ -55,10 +55,8 @@ $(document).ready(function() {
         $(this).removeClass('visible');
         });
       }
-
-
     }, {
-        offset: '50%'
+        offset: '0%'
     });
 
 
@@ -80,9 +78,8 @@ $(document).ready(function() {
         $(this).removeClass('visible');
         });
       }
-
     }, {
-        offset: '50%'
+        offset: '0%'
     });
 
 });
