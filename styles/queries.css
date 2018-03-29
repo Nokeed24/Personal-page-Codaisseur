@@ -15,36 +15,16 @@
 {
     body { font-size: 18px;}
     section { padding: 60px 0;}
-    .long-copy
+    .long
     {
         width: 80%;
         margin-left: 10%;
     }
 
-    .steps-box { margin-top: 10px; }
-    .steps-box:last-child { margin-top: 10px; }
-    .works-step { margin-bottom: 40px; }
-    .works-step:last-of-type { margin-bottom: 60px; }
-
-    .app-screen { width: 50%; }
-
-    .icon-small
-    {
-        width: 17px;
-        margin-right: 5px;
-    }
-
-    .city-feature { font-size: 90%; }
-
-    .plan-box
-    {
-        width: 100%;
-        margin-left: 0%;
-    }
-
-    .plan-price { font-size: 250%; }
-
-    .contact-form { width: 80%; }
+    .hobby-box { margin-top: 10px; }
+    .hobby-box:last-child { margin-top: 10px; }
+    .cell { margin-bottom: 40px; }
+    .cell:last-of-type { margin-bottom: 60px; }
 }
 
 /* Small phones to small tablets from 481px to 767px*/
@@ -54,8 +34,10 @@
     section { padding: 30px 0;}
 
     .row,
-    .hero-text-box{ padding: 0 4%; }
-    .col {
+    .head-text-box{ padding: 0 4%; }
+
+    .col
+    {
         width: 100%;
         margin: 0 0 4% 0;
     }
@@ -95,13 +77,13 @@
     h1 { font-size: 180%;}
     h2 { font-size: 150%;}
 
-    .long-copy
+    .long
     {
         width: 100%;
         margin-left: 0%;
     }
 
-    .works-step div
+    .musicandsports-box div
     {
         height: 40px;
         width: 40px;
@@ -110,11 +92,10 @@
         font-size: 120%;
     }
 
-    .app-screen { width: 40%; }
     .steps-box:first-child{ text-align: center; }
 
-    .works-step { margin-bottom: 20px; }
-    .works-step:last-of-type { margin-bottom: 20px; }
+    .hobby-box { margin-bottom: 20px; }
+    .hobby-box:last-of-type { margin-bottom: 20px; }
 
     .footer-nav,
     .social-links
@@ -134,5 +115,4 @@
 @media only screen and (max-width: 480px)
 {
     section { padding: 25px 0; }
-    .contact-form { width: 100%; }
 }

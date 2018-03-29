@@ -39,22 +39,7 @@ $(document).ready(function() {
     /* Animations on scroll */
     /* Waypoint 1 */
     $('.js--section-musicandsports').waypoint(function(direction) {
-      if(direction == "down")
-      {
         $('.js--wp-1').addClass('animated fadeInLeft');
-        $('.js--wp-1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-        $(this).removeClass('animated fadeInLeft');
-        $(this).addClass('visible');
-        });
-      }
-      else
-      {
-        $('.js--wp-1').addClass('animated fadeOutLeft');
-        $('.js--wp-1').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-        $(this).removeClass('animated fadeOutLeft');
-        $(this).removeClass('visible');
-        });
-      }
     }, {
         offset: '0%'
     });
@@ -62,22 +47,7 @@ $(document).ready(function() {
 
     /* Waypoint 2 */
     $('.js--section-hobbies').waypoint(function(direction) {
-      if(direction == "down")
-      {
         $('.js--wp-2').addClass('animated fadeInUp');
-        $('.js--wp-2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-        $(this).removeClass('animated fadeInUp');
-        $(this).addClass('visible');
-        });
-      }
-      else
-      {
-        $('.js--wp-2').addClass('animated fadeOutDown');
-        $('.js--wp-2').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend',function(){
-        $(this).removeClass('animated fadeOutDown');
-        $(this).removeClass('visible');
-        });
-      }
     }, {
         offset: '0%'
     });
