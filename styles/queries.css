@@ -8,20 +8,40 @@
     }
 
     .row{ padding: 0 2%; }
+
 }
 
 /* Small tablets to big tablets from 768px to 1023px*/
 @media only screen and (max-width: 1023px)
 {
+    .row { padding: 0 4%;}
     body { font-size: 18px;}
-    section { padding: 60px 0;}
+    section { padding: 40px 0;}
     .long
     {
         width: 80%;
         margin-left: 10%;
     }
 
-    .hobby-box { margin-top: 10px; }
+    .section-hobbies
+    {
+        display: block;
+        background-color: #003300;
+        text-align: center;
+        box-sizing: content-box;
+    }
+
+    .section-hobbies .row
+    {
+      height: 100%;
+    }
+
+    .hobby-box
+    {
+      display: inline-block;
+      margin-top: 10px;
+      padding-bottom: 10px;
+    }
     .hobby-box:last-child { margin-top: 10px; }
     .cell { margin-bottom: 40px; }
     .cell:last-of-type { margin-bottom: 60px; }
@@ -31,7 +51,37 @@
 @media only screen and (max-width: 767px)
 {
     body { font-size: 16px; }
-    section { padding: 30px 0;}
+    section
+    {
+      margin-top: 30px;
+      padding: 30px 0;
+      text-align: middle;
+    }
+
+    .section-hobbies
+    {
+        height: auto;
+        padding: 50px;
+        background-color: #003300;
+        text-align: middle;
+    }
+
+    .col
+    {
+
+    }
+
+    .row .col
+    {
+      display: inline-block;
+      float: none;
+      margin: 1% 0 1% 1.6%;
+    }
+
+    .span-1-of-3
+    {
+      width: 80% !important;
+    }
 
     .row,
     .head-text-box{ padding: 0 4%; }
@@ -39,6 +89,7 @@
     .col
     {
         width: 100%;
+        padding: 10px;
         margin: 0 0 4% 0;
     }
 
@@ -75,7 +126,12 @@
 
 
     h1 { font-size: 180%;}
-    h2 { font-size: 150%;}
+    h2
+    {
+      margin: 0px;
+      padding: 10px;
+      font-size: 150%;
+    }
 
     .long
     {
@@ -83,7 +139,7 @@
         margin-left: 0%;
     }
 
-    .musicandsports-box div
+    .musicandsports-box
     {
         height: 40px;
         width: 40px;
@@ -92,7 +148,7 @@
         font-size: 120%;
     }
 
-    .steps-box:first-child{ text-align: center; }
+    .hobby-box{ text-align: center; }
 
     .hobby-box { margin-bottom: 20px; }
     .hobby-box:last-of-type { margin-bottom: 20px; }
