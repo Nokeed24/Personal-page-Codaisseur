@@ -150,7 +150,18 @@
         font-size: 100%;
     }
 
-    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav
+    {
+      float: none;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .main-nav li
+    {
+      display: inline-block;
+      margin-left: 10px; 
+    }
 
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
