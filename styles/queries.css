@@ -125,6 +125,10 @@
     .main-nav { display: none; }
     .mobile-nav-icon { display: inline-block; }
 
+    ul li
+    {
+      display: inline-block;
+    }
     .main-nav
     {
         float: left;
@@ -134,13 +138,13 @@
 
     .main-nav li
     {
-        display: block;
+        display: inline-block;
+        vertical-align: middle;
     }
 
     .main-nav li a:link,
     .main-nav li a:visited
     {
-        display: block;
         border: 0;
         padding: 10px 0;
         font-size: 100%;

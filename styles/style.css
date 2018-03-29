@@ -138,6 +138,21 @@ header
     margin: 5px 0;
 }
 
+/* ---------MOBILE NAV--------- */
+.mobile-nav-icon
+{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i
+{
+    font-size: 200%;
+    color: #fff;
+}
+
 /* ---------HEADINGS--------- */
 h1,
 h2,
