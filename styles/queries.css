@@ -132,8 +132,8 @@
     .main-nav
     {
         float: left;
-        margin-top: 35px;
-        margin-left: 25px;
+        margin-top: 0px;
+        margin-left: 0px;
     }
 
     .main-nav li
@@ -160,7 +160,7 @@
     .main-nav li
     {
       display: inline-block;
-      margin-left: 10px; 
+      margin-left: 10px;
     }
 
     .sticky .main-nav li a:link,
