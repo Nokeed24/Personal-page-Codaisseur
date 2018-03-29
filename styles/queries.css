@@ -1,0 +1,203 @@
+/* Big tablets to 1200px*/
+@media only screen and (max-width: 1200px)
+{
+    .head-text-box
+    {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row{ padding: 0 2%; }
+
+}
+
+/* Small tablets to big tablets from 768px to 1023px*/
+@media only screen and (max-width: 1023px)
+{
+    .row { padding: 0 4%;}
+    body { font-size: 18px;}
+    section { padding: 40px 0;}
+    .long
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .section-hobbies
+    {
+        display: block;
+        background-color: #003300;
+        text-align: center;
+        box-sizing: content-box;
+    }
+
+    .section-hobbies .row
+    {
+      height: 100%;
+    }
+
+    .hobby-box
+    {
+      display: inline-block;
+      margin-top: 10px;
+      padding-bottom: 10px;
+    }
+    .hobby-box:last-child { margin-top: 10px; }
+    .cell { margin-bottom: 40px; }
+    .cell:last-of-type { margin-bottom: 60px; }
+}
+
+/* Small phones to small tablets from 481px to 767px*/
+@media only screen and (max-width: 767px)
+{
+    body { font-size: 16px; }
+    section
+    {
+      padding: 60px 0;
+      text-align: middle;
+    }
+
+    .section-about
+    {
+      display: flex;
+      align-items: center;
+      height: auto;
+      box-sizing: initial;
+    }
+
+    .section-hobbies
+    {
+        height: auto;
+        padding: 50px;
+        background-color: #003300;
+        text-align: middle;
+    }
+
+    .section-musicandsports
+    {
+      background-color: #f4f4f4;
+      padding-top: 30px;
+      height: auto;
+    }
+
+    .section-musicandsports .row
+    {
+      text-align: center;
+    }
+
+    .cell div
+    {
+      color: #e67e22;
+      /* border: 2px solid #e67e22; */
+      display: inline-block;
+      border-radius: 50%;
+      height: 55px;
+      width: 55px;
+      text-align: center;
+      padding: 5px;
+      float: none;
+      font-size: 150%;
+      margin-right: 0px;
+    }
+
+    .row .col
+    {
+      display: inline-block;
+      float: none;
+      margin: 1% 0 1% 1.6%;
+    }
+
+    .span-1-of-3
+    {
+      width: 80% !important;
+    }
+
+    .row,
+    .head-text-box{ padding: 0 4%; }
+
+    .col
+    {
+        width: 100%;
+        padding: 10px;
+        margin: 0 0 4% 0;
+    }
+
+    .main-nav { display: none; }
+    .mobile-nav-icon { display: inline-block; }
+
+    .main-nav
+    {
+        float: left;
+        margin-top: 35px;
+        margin-left: 25px;
+    }
+
+    .main-nav li
+    {
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited
+    {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .sticky .main-nav { margin-top: 10px; }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+
+
+    h1 { font-size: 180%;}
+    h2
+    {
+      margin: 0px;
+      padding: 10px;
+      font-size: 150%;
+    }
+
+    .long
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+
+    .musicandsports-box
+    {
+        text-align: center;
+        width: 40px;
+        margin-right: 0px;
+        padding: none;
+        font-size: 120%;
+    }
+
+    .hobby-box{ text-align: center; }
+
+    .hobby-box { margin-bottom: 20px; }
+    .hobby-box:last-of-type { margin-bottom: 20px; }
+
+    .footer-nav,
+    .social-links
+    {
+        float:none;
+        text-align: center;
+    }
+
+    .footer-nav li,
+    .social-links li
+    {
+        display: inline-block;
+    }
+}
+
+/* Small phones from 0 to 480px*/
+@media only screen and (max-width: 480px)
+{
+    section { padding: 60px 0; }
+}
