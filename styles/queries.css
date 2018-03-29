@@ -1,6 +1,11 @@
 /* Big tablets to 1200px*/
 @media only screen and (max-width: 1200px)
 {
+    header
+    {
+        background-attachment:scroll;
+    }
+    
     .head-text-box
     {
         width: 100%;
@@ -14,6 +19,10 @@
 /* Small tablets to big tablets from 768px to 1023px*/
 @media only screen and (max-width: 1023px)
 {
+    header
+    {
+        background-attachment:scroll;
+    }
     .row { padding: 0 4%;}
     body { font-size: 18px;}
     section { padding: 40px 0;}
@@ -50,6 +59,11 @@
 /* Small phones to small tablets from 481px to 767px*/
 @media only screen and (max-width: 767px)
 {
+    
+    header
+    {
+        background-attachment:scroll;
+    }
     body { font-size: 16px; }
     section
     {
@@ -59,6 +73,7 @@
 
     .section-about
     {
+      padding-top: 100px;
       display: flex;
       align-items: center;
       height: auto;
@@ -68,7 +83,7 @@
     .section-hobbies
     {
         height: auto;
-        padding: 50px;
+        padding: 60px;
         background-color: #003300;
         text-align: middle;
     }
@@ -76,7 +91,7 @@
     .section-musicandsports
     {
       background-color: #f4f4f4;
-      padding-top: 30px;
+      padding-top: 60px;
       height: auto;
     }
 
@@ -103,13 +118,26 @@
     .row .col
     {
       display: inline-block;
-      float: none;
-      margin: 1% 0 1% 1.6%;
+      /*float: none;*/
+      /*margin: 1% 0 1% 1.6%;*/
     }
+    
+    .musicandsports-box:first-child 
+    {
+        text-align: middle;
+        padding-right: 0% !important;
+        margin-top: 70px;
+    }
+    
+    .musicandsports-box:last-child
+    {
+        padding-left: 0px !important;
+        margin-top: 30px;
+    }       
 
     .span-1-of-3
     {
-      width: 80% !important;
+      width: 100% !important;
     }
 
     .row,
@@ -118,35 +146,54 @@
     .col
     {
         width: 100%;
-        padding: 10px;
+        /*padding: 10px;*/
         margin: 0 0 4% 0;
     }
 
-    .main-nav { display: none; }
     .mobile-nav-icon { display: inline-block; }
 
+    ul li
+    {
+      display: inline-block;
+    }
     .main-nav
     {
+        display: none;
+        width: 100%;
         float: left;
-        margin-top: 35px;
-        margin-left: 25px;
+        /*margin-top: 0px;*/
+        margin-left: 0px;
     }
 
     .main-nav li
     {
-        display: block;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 0px;
+        font-size: 12px;
+        padding-left: 15px;
     }
+
 
     .main-nav li a:link,
     .main-nav li a:visited
     {
-        display: block;
         border: 0;
-        padding: 10px 0;
+        padding: 0px 0;
         font-size: 100%;
     }
 
-    .sticky .main-nav { margin-top: 10px; }
+    .sticky .main-nav
+    {
+      float: none;
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .main-nav li
+    {
+
+    }
 
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited { padding: 10px 0; }
