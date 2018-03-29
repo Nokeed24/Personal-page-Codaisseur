@@ -271,16 +271,10 @@ input[type=submit]:active
   width: 50%;
   border-radius: 15%;
   padding-bottom: 10px;
-  opacity: 0.5;
-  transition: opacity 0.5s, transform 0.5s;
-  transition: opacity 0.5s, transform 0.5s;
-  transition: transform 0.5s, opacity 0.5s;
-  transition: transform 0.5s, opacity 0.5s, transform 0.5s;
 }
 
 .hobby-img:hover
 {
-    opacity: 1;
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
 }
@@ -458,23 +452,20 @@ footer p
 /* ------------------------------------------------ */
 
 .js--wp-1,
-.js--wp-2,
-.js--wp-3
+.js--wp-2
 {
     opacity: 0;
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
 
-.js--wp-4
-{
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-}
-
-.js--wp-1.animated,
-.js--wp-2.animated,
-.js--wp-3.animated
+/*.js--wp-1.animated,
+.js--wp-2.animated
 {
     opacity: 1;
+}*/
+
+.visible
+{
+  opacity: 1;
 }
