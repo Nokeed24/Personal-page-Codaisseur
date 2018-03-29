@@ -118,9 +118,22 @@
     .row .col
     {
       display: inline-block;
-      float: none;
-      margin: 1% 0 1% 1.6%;
+      /*float: none;*/
+      /*margin: 1% 0 1% 1.6%;*/
     }
+    
+    .musicandsports-box:first-child 
+    {
+        text-align: middle;
+        padding-right: 0% !important;
+        margin-top: 70px;
+    }
+    
+    .musicandsports-box:last-child
+    {
+        padding-left: 0px !important;
+        margin-top: 30px;
+    }       
 
     .span-1-of-3
     {
