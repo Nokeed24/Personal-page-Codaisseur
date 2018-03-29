@@ -57,6 +57,14 @@
       text-align: middle;
     }
 
+    .section-about
+    {
+      display: flex;
+      align-items: center;
+      height: auto;
+      box-sizing: initial;
+    }
+
     .section-hobbies
     {
         height: auto;
